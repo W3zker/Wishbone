@@ -92,6 +92,95 @@ header .get_template{
     text-decoration: none; 
     margin-left: 25px;
 }
+.our_firm{
+    padding: 100px 0px;
+}
+.our_firm .wraper{
+    max-width: 768px; 
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+.our_firm .box{
+    max-width: 134px;
+}
+.our_firm .holder{
+    max-width: 501px;
+}
+.our_firm .stephen{
+    max-width: 501px;
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.our_firm .iternal{
+    margin-right: 30px;
+}
+.our_firm div div h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+.our_firm div div p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    margin-bottom: 10px;
+}
+.our_firm .h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+.our_firm .text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
+.origin_house{
+    min-height: 600px;
+    background-image: url("../img/origin_house.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+
+}
+.description{
+    max-width: 285px;
+}
+.origin_house div h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.origin_house div p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
 .section2{
     padding: 100px 0px; 
     text-align: center;
@@ -149,6 +238,33 @@ header .get_template{
     line-height: 24px;
     color: #645C55;
 }
+.marble_staircase{
+    min-height: 600px;
+    background-image: url("../img/marbl_s.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+.marble_staircase div h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.marble_staircase div p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
 .section3{
     background-color: #403E3B; 
     padding: 60px 0px;
@@ -157,7 +273,7 @@ header .get_template{
     max-width: 1168px; 
     margin: auto; 
     justify-content: space-between; 
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 .section3 .box{
@@ -191,16 +307,15 @@ header .get_template{
     color: #ECE7E4;
 }
 .section3 .holder1{
-    max-width: 432px; 
-    margin-top: 64px; 
-    margin-bottom: 48px; 
-    display: grid; 
+    max-width: 128px; 
+    margin-top: 64px;
+    margin-bottom: 48px;
+    margin-left: 40px;
     justify-content: space-between;
 }
 .section3 .holder2{
-    max-width: 432px; 
-    margin: 40px 0px; 
-    display: grid; 
+    max-width: 128px; 
+    margin: 40px 40px 40px 0px;
     justify-content: space-between;
 }
 .holder1 .bottom{
@@ -208,6 +323,33 @@ header .get_template{
 }
 .holder2 .bottom{
     margin-bottom: 96px;
+}
+.swirling_stair{
+    min-height: 600px;
+    background-image: url("../img/swirling.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 60px;
+}
+.swirling_stair div h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.swirling_stair div p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
 }
 .section4{
     padding: 100px 0px;
