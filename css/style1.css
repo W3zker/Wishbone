@@ -92,6 +92,15 @@ header .get_template{
     text-decoration: none; 
     margin-left: 25px;
 }
+.jpg{
+    position: absolute; 
+    right: 0; 
+    top: 0;
+     width: 50%; 
+     height: 100%; 
+     background-image: url('../img/sect1.jpg ');
+     background-size: cover;
+}
 .our_firm{
     padding: 100px 0px;
 }
