@@ -1,0 +1,137 @@
+@media only screen and (max-width: 992px) {
+    header div nav ul li{
+        margin-left: 15px;
+    }
+    .section1 .wraper {
+        width: 50%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header .container{
+        padding: 0 15px 0 17px;
+    }
+    header div nav ul li{
+        margin-left: 5px;
+    }
+    .section1 { 
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 0 0;
+    }
+    .section1 .jpg {
+        position: static;
+        height: 600px;
+        width: 100%;
+    }
+    .section1 .wraper {
+        width: 100%;
+    }
+    .our_firm {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .origin_house {
+        background-position: right;
+    }
+    .section3 .wraper {
+        padding-left: 32px;
+        padding-right: 32px;
+        flex-direction: column;
+    }
+    .projects {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .projects article {
+        margin-left: 10px;
+    }
+    .projects article:first-of-type {
+        margin-left: 0px;
+    }
+    .section4 .wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section4 .wraper .box_wraper {
+        margin-top: 40px;
+    }
+    .section4 .wraper .box_wraper .box {
+        margin-left: 40px;
+    }
+    .section4 .wraper .box_wraper .box:first-of-type {
+        margin-left: 0px;
+    }
+    .section5 .wraper {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .section5 .wraper .link {
+        padding: 0;
+    }
+    footer {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+@media only screen and (max-width: 428px) {
+    header nav {
+        display: none;
+    }
+    .section1 .wraper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section1 div h1 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .our_firm {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .our_firm .wraper {
+        flex-direction: column;
+    }
+    .our_firm .wraper .box {
+        margin-bottom: 24px;
+    }
+    .origin_house {
+        background-position: left;
+    }
+    .section3 .logo_wraper {
+        padding: 0;
+        row-gap: 48px;
+        column-gap: 48px;
+    }
+    .projects .holder {
+        flex-direction: column;
+    }
+    .projects article {
+        margin-left: 0;
+    }
+    .section4 .wraper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section4 .wraper .team_box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section4 .wraper .team_box .photo_interal {
+        margin: 0;
+    }
+    .section5 div div p {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    footer .wraper {
+        flex-direction: column;
+    }
+    footer .wraper .holder {
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    
+}
